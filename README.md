@@ -1,5 +1,25 @@
 # A dark theme which will making your VSCode session look like the inside of a dive bar.
 
+## What it looks like
+
+### Python
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/mattseddon/vscode-dive-bar-theme/main/images/Python.png"
+    role="presentation"
+  />
+</div>
+
+### TypeScript
+
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/mattseddon/vscode-dive-bar-theme/main/images/TypeScript.png"
+    role="presentation"
+  />
+</div>
+
 ## Some extra configuration
 
 ### Bracket Pair Colorizer 2
@@ -13,8 +33,16 @@ you can match the bracket colors to the rest of this theme:
 }
 ```
 
+### Integrated Terminal
+
 For your terminal it is recommended to use the [Powerlevel10k][] terminal
-theme with the `MesloLGS NF` font.
+theme with the `MesloLGS NF` font:
+
+```json
+{
+  "terminal.integrated.fontFamily": "MesloLGS NF"
+}
+```
 
 [powerlevel10k]: https://github.com/romkatv/powerlevel10k
 

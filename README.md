@@ -46,8 +46,8 @@ theme with the `MesloLGS NF` font:
 
 [powerlevel10k]: https://github.com/romkatv/powerlevel10k
 
-If you chose to use p10k then you should overwrite the my_git_formatter
-function in your .p10k.zsh with the following:
+If you chose to use p10k then you should overwrite the `my_git_formatter`
+function in your `.p10k.zsh` with the following:
 
 ```bash
   function my_git_formatter() {

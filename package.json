@@ -1,0 +1,29 @@
+{
+    "name": "vscode-dive-bar-theme",
+    "displayName": "vscode-dive-bar-theme",
+	"description": "A dive bar theme for VSCode",
+	"publisher": "Matt Seddon",
+	"author": {
+		"name": "Matt Seddon"
+	},
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+	],
+	"repository": {
+		"type": "git", 
+		"url": "https://github.com/mattseddon/vscode-dive-bar-theme"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dive Bar Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dive-bar-color-theme.json"
+            }
+        ]
+    }
+}

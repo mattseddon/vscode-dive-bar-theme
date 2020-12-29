@@ -13,9 +13,16 @@
     "categories": [
         "Themes"
 	],
+	"keywords": [
+		"Dive Bar", 
+		"Dark Theme"
+	],
 	"repository": {
 		"type": "git", 
 		"url": "https://github.com/mattseddon/vscode-dive-bar-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/mattseddon/vscode-dive-bar-theme/issues"
 	},
     "contributes": {
         "themes": [

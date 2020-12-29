@@ -6,7 +6,7 @@
 	"author": {
 		"name": "Matt Seddon"
 	},
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -17,6 +17,7 @@
 		"Dive Bar", 
 		"Dark Theme"
 	],
+	"icon": "images/icon/logo.png", 
 	"repository": {
 		"type": "git", 
 		"url": "https://github.com/mattseddon/vscode-dive-bar-theme"
@@ -27,7 +28,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dive Bar Theme",
+                "label": "Dive Bar",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dive-bar-color-theme.json"
             }

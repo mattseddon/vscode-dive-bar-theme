@@ -1,12 +1,12 @@
 {
     "name": "vscode-dive-bar-theme",
-    "displayName": "vscode-dive-bar-theme",
+    "displayName": "Dive Bar",
 	"description": "A dive bar theme for VSCode",
 	"publisher": "mattseddon",
 	"author": {
 		"name": "Matt Seddon"
 	},
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -15,7 +15,9 @@
 	],
 	"keywords": [
 		"Dive Bar", 
-		"Dark Theme"
+		"Dark Theme",
+		"Neon",
+		"Future"
 	],
 	"icon": "images/icon/logo.png", 
 	"repository": {

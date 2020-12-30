@@ -1,6 +1,6 @@
-# A dark theme which will making your VSCode session look like the inside of a dive bar.
+# A dark theme which makes VSCode look like the inside of a dive bar.
 
-## What it looks like
+## How it looks
 
 ### Python
 
@@ -24,7 +24,7 @@
 
 ### Bracket Pair Colorizer 2
 
-If you already use the Bracket Pair Colorizer
+If you already use Bracket Pair Colorizer 2
 you can match the bracket colors to the rest of this theme:
 
 ```json
@@ -33,10 +33,23 @@ you can match the bracket colors to the rest of this theme:
 }
 ```
 
+### Import Costs
+
+If you are using the Import Costs extension these settings will
+match the rest of this theme:
+
+```json
+{
+  "importCost.smallPackageColor": "#0adb8b",
+  "importCost.mediumPackageColor": "#00eaff",
+  "importCost.largePackageColor": "#f60e67"
+}
+```
+
 ### Integrated Terminal
 
-For your terminal it is recommended to use the [Powerlevel10k][] terminal
-theme with the `MesloLGS NF` font:
+For your terminal it is recommended that you use [Powerlevel10k][]
+for `zsh` with the `MesloLGS NF` font:
 
 ```json
 {
@@ -46,8 +59,8 @@ theme with the `MesloLGS NF` font:
 
 [powerlevel10k]: https://github.com/romkatv/powerlevel10k
 
-If you chose to use p10k then you should overwrite the `my_git_formatter`
-function in your `.p10k.zsh` with the following:
+If you chose to use `Powerlevel10k` then you should overwrite the
+`my_git_formatter` function in your `.p10k.zsh` with the following:
 
 ```bash
   function my_git_formatter() {

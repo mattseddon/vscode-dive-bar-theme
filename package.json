@@ -1,12 +1,12 @@
 {
     "name": "vscode-dive-bar-theme",
     "displayName": "Dive Bar",
-	"description": "A dive bar theme for VSCode",
+	"description": "A dive bar theme for VS Code",
 	"publisher": "mattseddon",
 	"author": {
 		"name": "Matt Seddon"
 	},
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.52.0"
     },

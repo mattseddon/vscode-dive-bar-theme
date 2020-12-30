@@ -1,4 +1,4 @@
-# A dark theme which makes VSCode look like the inside of a dive bar.
+# A dark theme which makes Visual Studio Code look like the inside of a dive bar.
 
 ## How it looks
 

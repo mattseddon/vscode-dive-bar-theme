@@ -29,7 +29,7 @@ you can match the bracket colors to the rest of this theme:
 
 ```json
 {
-  "bracket-pair-colorizer-2.colors": ["#0adb8b", "#00eaff", "#f60e67"]
+    "bracket-pair-colorizer-2.colors": ["#0adb8b", "#00eaff", "#f60e67"]
 }
 ```
 
@@ -40,9 +40,9 @@ match the rest of this theme:
 
 ```json
 {
-  "importCost.smallPackageColor": "#0adb8b",
-  "importCost.mediumPackageColor": "#00eaff",
-  "importCost.largePackageColor": "#f60e67"
+    "importCost.smallPackageColor": "#0adb8b",
+    "importCost.mediumPackageColor": "#00eaff",
+    "importCost.largePackageColor": "#f60e67"
 }
 ```
 
@@ -53,7 +53,7 @@ for `zsh` with the `MesloLGS NF` font:
 
 ```json
 {
-  "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF"
 }
 ```
 
@@ -73,7 +73,7 @@ If you chose to use `Powerlevel10k` then you should overwrite the
 
     if (( $1 )); then
       local       meta='%f'     # default foreground
-      local      clean='%41F'   # story maps green foreground
+      local      clean='%41F'   # green foreground
       local   modified='%45F'   # blue foreground
       local  untracked='%001F'  # red foreground
       local conflicted='%001F'  # red foreground

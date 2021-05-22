@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-dive-bar-theme" extension will be documented in this file.
 
+## [0.0.8] - 2021-05-22
+
+-   Add colors for missing git decorations
+
 ## [0.0.6] - 2021-02-11
 
 -   Fix Readme

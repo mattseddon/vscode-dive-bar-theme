@@ -6,7 +6,7 @@
 	"author": {
 		"name": "Matt Seddon"
 	},
-    "version": "0.0.8",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.52.0"
     },

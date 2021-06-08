@@ -33,6 +33,21 @@ you can match the bracket colors to the rest of this theme:
 }
 ```
 
+### Coverage Gutters
+
+If you wish to match the colors of the gutters provided by Coverage Gutters to this theme:
+
+1. Copy the `images/gutter-icon-dark.svg`, `images/no-gutter-icon-dark.svg` & `images/partial-gutter-icon-dark.svg` files from this repo to your local disk.
+2. Set the following options in your config:
+
+```json
+{
+    "coverage-gutters.gutterIconPathDark": "/path/to/gutter-icon-dark.svg",
+    "coverage-gutters.noGutterIconPathDark": "/path/to/no-gutter-icon-dark.svg",
+    "coverage-gutters.partialGutterIconPathDark": "/path/to/partial-gutter-icon-dark.svg"
+}
+```
+
 ### Import Costs
 
 If you are using the Import Costs extension these settings will

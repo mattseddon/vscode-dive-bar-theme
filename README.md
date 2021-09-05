@@ -48,6 +48,25 @@ If you wish to match the colors of the gutters provided by Coverage Gutters to t
 }
 ```
 
+### Git Graph
+
+If you use Git Graph the following settings will match the rest of this theme:
+
+```json
+{
+    "git-graph.graph.colours": [
+        "#FF428E",
+        "#A8FFEF",
+        "#0ADB8B",
+        "#00EAFF",
+        "#F834BB",
+        "#2BF5E9",
+        "#D831D7",
+        "#FF594C"
+    ]
+}
+```
+
 ### Import Costs
 
 If you are using the Import Costs extension these settings will

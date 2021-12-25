@@ -22,10 +22,21 @@
 
 ## Some extra configuration
 
-### Bracket Pair Colorizer 2
+### Bracket Pair Colorization
 
-If you already use Bracket Pair Colorizer 2
-you can match the bracket colors to the rest of this theme:
+Bracket pair colorization is now a native feature in VS Code.
+This theme has colors set for bracket pairs by default.
+In order to enable set the following options:
+
+```json
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
+}
+```
+
+If you use a version of VS Code from before 1.60.0 and/or still want
+to use Bracket Pair Colorizer 2 you can match the bracket colors to the rest of this theme:
 
 ```json
 {

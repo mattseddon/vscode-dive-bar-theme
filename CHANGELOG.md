@@ -2,6 +2,14 @@
 
 All notable changes to the "vscode-dive-bar-theme" extension will be documented in this file.
 
+## [0.1.3] - 2022-03-05
+
+-   Update focusBorder color.
+
+## [0.1.2] - 2021-12-26
+
+-   Recommend native bracket matching colorization.
+
 ## [0.1.1] - 2021-09-05
 
 -   Add instructions to update colors of Git Graph extension.

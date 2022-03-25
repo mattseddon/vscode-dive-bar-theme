@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-dive-bar-theme" extension will be documented in this file.
 
+## [0.1.4] - 2022-03-05
+
+-   Make focusBorder less harsh.
+
 ## [0.1.3] - 2022-03-05
 
 -   Update focusBorder color.

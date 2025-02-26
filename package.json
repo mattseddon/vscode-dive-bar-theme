@@ -1,39 +1,39 @@
 {
-    "name": "vscode-dive-bar-theme",
-    "displayName": "Dive Bar",
-	"description": "A dive bar theme for VS Code",
-	"publisher": "mattseddon",
-	"author": {
-		"name": "Matt Seddon"
-	},
-    "version": "0.1.5",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-	],
-	"keywords": [
-		"Dive Bar", 
-		"Dark Theme",
-		"Neon",
-		"Future"
-	],
-	"icon": "images/icon/logo.png", 
-	"repository": {
-		"type": "git", 
-		"url": "https://github.com/mattseddon/vscode-dive-bar-theme"
-	},
-	"bugs": {
-		"url": "https://github.com/mattseddon/vscode-dive-bar-theme/issues"
-	},
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dive Bar",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dive-bar-color-theme.json"
-            }
-        ]
-    }
+  "name": "vscode-dive-bar-theme",
+  "displayName": "Dive Bar",
+  "description": "A dive bar theme for VS Code",
+  "publisher": "mattseddon",
+  "author": {
+    "name": "Matt Seddon"
+  },
+  "version": "0.1.5",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dive Bar",
+    "Dark Theme",
+    "Neon",
+    "Future"
+  ],
+  "icon": "images/icon/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattseddon/vscode-dive-bar-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/mattseddon/vscode-dive-bar-theme/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dive Bar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dive-bar-color-theme.json"
+      }
+    ]
+  }
 }

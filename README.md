@@ -46,16 +46,14 @@ to use Bracket Pair Colorizer 2 you can match the bracket colors to the rest of 
 
 ### Coverage Gutters
 
-If you wish to match the colors of the gutters provided by Coverage Gutters to this theme:
-
-1. Copy the `images/gutter-icon-dark.svg`, `images/no-gutter-icon-dark.svg` & `images/partial-gutter-icon-dark.svg` files from this repo to your local disk.
-2. Set the following options in your config:
+Set the following options in your config to update the colors of the gutters provided by Coverage Gutters to match this theme:
 
 ```json
 {
-    "coverage-gutters.gutterIconPathDark": "/path/to/gutter-icon-dark.svg",
-    "coverage-gutters.noGutterIconPathDark": "/path/to/no-gutter-icon-dark.svg",
-    "coverage-gutters.partialGutterIconPathDark": "/path/to/partial-gutter-icon-dark.svg"
+    "coverage-gutters.highlightdark": "rgba(10, 219, 139, 1)",
+    "coverage-gutters.noHighlightDark": "rgba(246, 14, 103, 1)",
+    "coverage-gutters.partialHighlightDark": "rgba(0, 234, 255, 1)",
+    "coverage-gutters.showLineCoverage": false
 }
 ```
 
